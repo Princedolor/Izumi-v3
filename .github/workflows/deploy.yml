@@ -1,4 +1,4 @@
-
+. 
 name: Node.js CI
 
 on:
@@ -29,7 +29,7 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-
+. 
     - name: Install ffmpeg
       run: |
         sudo apt-get update
